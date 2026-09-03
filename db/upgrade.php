@@ -81,7 +81,7 @@ function xmldb_experiencefinder_upgrade($oldversion) {
     }
 
 
-    if ($oldversion < 20260616014) {
+    if ($oldversion < 2026061614) {
         $table = new xmldb_table('experiencefinder_collage_items');
 
         if (!$dbman->table_exists($table)) {
@@ -100,11 +100,11 @@ function xmldb_experiencefinder_upgrade($oldversion) {
             $dbman->create_table($table);
         }
 
-        upgrade_mod_savepoint(true, 20260616014, 'experiencefinder');
+        upgrade_mod_savepoint(true, 2026061614, 'experiencefinder');
     }
 
 
-    if ($oldversion < 20260618020) {
+    if ($oldversion < 2026061820) {
         $table = new xmldb_table('experiencefinder_collage_snapshots');
 
         if (!$dbman->table_exists($table)) {
@@ -118,7 +118,7 @@ function xmldb_experiencefinder_upgrade($oldversion) {
             $dbman->create_table($table);
         }
 
-        upgrade_mod_savepoint(true, 20260618020, 'experiencefinder');
+        upgrade_mod_savepoint(true, 2026061820, 'experiencefinder');
     }
 
     return true;

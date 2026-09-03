@@ -65,7 +65,7 @@ $string['nostructure'] = 'This ExperienceFinder has not yet been configured.';
 $string['notconfiguredstudent'] = 'This ExperienceFinder is not yet ready for participants.';
 $string['reflectionpromptinfo'] = 'These items are provided only to prompt reflection. You do not need to select or disclose anything you do not wish to record.';
 $string['storedpromptinfo'] = 'Select any items that apply. These selections may appear in your Discovery Portfolio.';
-$string['shapeportfolio'] = 'My Unique Results and Profile';
+$string['shapeportfolio'] = 'My Uniqueness - Results and Profile';
 $string['participant'] = 'Participant';
 $string['dategenerated'] = 'Date generated';
 $string['responses'] = 'Responses';
@@ -97,7 +97,7 @@ $string['skillsfinderpaneltitle'] = 'Your SkillsFinder competencies';
 $string['personalityfinderpaneltitle'] = 'Your PersonalityFinder matrix';
 $string['linkedextractorpending'] = 'This linked activity is selected. The visual extractor for this sibling will be added in the next development step.';
 
-$string['sectionresult'] = 'Result from other activities to display in this section';
+$string['sectionresult'] = 'Result to display in this section';
 $string['sectionresultnone'] = 'Do not display a linked result in this section';
 $string['sectionresult_help'] = 'Choose one linked sibling activity result to display inside this section. This lets the teacher place SelfProfile, PassionFinder, SkillsFinder or PersonalityFinder summaries exactly where they belong in the final portfolio.';
 $string['addsectionresult'] = 'Optional linked result';
